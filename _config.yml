@@ -18,13 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Willking's Playground 
+title: From 0 to Hero 
 email: 
-description: >- # this means to ignore newlines until "baseurl:"
-  GitHub Pages + Jekyll 
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: | 
+  Willking's Playground,
+  GitHub Pages + Jekyll
+# >- # this means to ignore newlines until "baseurl:"
+# Write an awesome description for your new site here. You can edit this
+# line in _config.yml. It will appear in your document head meta (for
+# Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -37,8 +39,11 @@ markdown: GFM # GitHub Flavored Markdown # karmdown
 
 # Build settings
 # theme: minima # ekyll-theme-hacker # minima
+
 # using other Jekyll theme hosted on GitHub, use remote_theme: THEME-NAME
 remote_theme: pages-themes/hacker@v0.2.0 # for more: visit github.com/pages-themes/hacker
+show_downloads: false # hacker theme settings
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme # add this line to the plugins list 
@@ -62,3 +67,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - pages-themes/
