@@ -7,8 +7,9 @@ date: 2022-04-24 17:19:03+08:00
 ---
 
 ## to do
-- [] wirte a script to add links for post
-- [] posts the md on github pages 
+- [ ] wirte a script to add links for post
+- [ ] post the mds on github pages
+- [ ] override layout of hacker-theme
 
 ---
 ### Displayed in Main Page 
