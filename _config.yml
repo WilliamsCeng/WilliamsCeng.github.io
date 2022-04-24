@@ -30,10 +30,18 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
+
+# setting Markdown processor for GitHub pages site using Jekyll
+markdown: GFM # GitHub Flavored Markdown # karmdown
+
+
 # Build settings
-theme: minima # ekyll-theme-hacker # minima
+# theme: minima # ekyll-theme-hacker # minima
+# using other Jekyll theme hosted on GitHub, use remote_theme: THEME-NAME
+remote_theme: pages-themes/hacker@v0.2.0 # for more: visit github.com/pages-themes/hacker
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme # add this line to the plugins list 
 
 # Exclude from processing.
 # The following items will not be processed, by default.
